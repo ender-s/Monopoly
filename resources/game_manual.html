@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+
+    <body>
+        <div>
+            <div>
+                <h1 style="color: red"> Monopoly - Rules </h1>
+                <p>
+                    Number of players are asked at the beginning of the game.
+                    <br />
+                    Number of players have to be between 2 and 8 (inclusive).
+                    <br />
+                    Names of players and the initial money amount are asked.
+                    <br />
+                    At the beginning of the game, each player rolls dice, and the player that has rolled the greatest number starts the game.
+                    <br />
+                    - If more than one player rolls the greatest number, these players again roll dice among themselves. This process goes on until there is one player remaining that has rolled the greatest number.
+                    <br />
+                    <br />
+                    After determining the starter, the game starts with the starter player rolling dice.
+                </p>
+            </div>
+
+            <div>
+                <br />
+            
+                <h2 style="color: red">There are 11 different field types in the game:</h2>
+
+                <h2 style="color: blue">1 - Free Parking</h2>
+                <p>
+                    - When players pay tax, the tax that have been paid is put here.<br />
+                    - When players go bankruptcy not because they owe other players but because they cannot pay tax, all money of them is put here.<br />
+                    - When players come here, they earn money that is accumulated here.<br />
+                    - Free Parking area cannot be owned, sold, nor bought.<br />
+                    - Neither a hotel nor a house can be built on this area.<br />
+                </p>
+
+                <br />
+                <br />
+                
+                <h2 style="color: blue">2 - Public Service</h2>
+                <p>
+                    - These areas make their owner earn a predetermined amount of money each turn.<br />
+                    - The amount of money that these areas make their owner earn is a constant amount.
+                    <br />
+                    &nbsp;&nbsp;That is, these amounts do not change when the number of public service areas that the owner has changes.
+                    <br />
+                    - They can be bought or sold.
+                    <br />
+                    - Hotels and houses cannot be built on this areas.
+                    <br />
+                </p>
+                
+                <br />
+                <br />
+                
+                <h2 style="color: blue">3 - Land</h2>
+                <p>
+                    - Lands can be bought or sold. Hotels and houses can be built on lands.
+                    <br />
+                    <br />
+                    - When players come to a land, they have to pay required amount of rent to the owner of the land.
+                    <br />
+                    &nbsp;&nbsp;If a player that comes here does not have enough money to pay the rent, then the player is out of the game and all properties that this player has is owned by the owner of the land.
+                    <br />
+                    &nbsp;&nbsp;The amount of rent for a land changes according to the number of houses/hotels on the land.
+                    <br />
+                    <br />
+                    - At most 4 houses can be built on a land. For a house to be built on a land, the owner must own all lands in the same color group.
+                    <br />
+                    &nbsp;&nbsp;Also, number of houses on a land must increase equally.
+                    <br />
+                    &nbsp;&nbsp;For example, if there are 1, 1, and 2 houses on three lands in the same color group respectively, a third house cannot be built on any land in that color group before the second houses are built on the lands where there is 1 house.
+                    <br />
+                    &nbsp;&nbsp;The same rule also holds for hotels. No hotel can be built on a land before 4 houses are built on all the lands in the same color group.
+                    <br />
+                    <br />
+                    - A player can build 2 houses on the same land in one turn.
+                    &nbsp;&nbsp;However, the condition of balanced house increase must be satisfied beforehand.
+                    <br />
+                    &nbsp;&nbsp;That is, assume that there are 1, 2, and 2 houses, respectively, on three lands in the same color group.
+                    <br />
+                    &nbsp;&nbsp;The player can increase the number of house to 2 by building a house on the land where there is 1 house.
+                    <br />
+                    &nbsp;&nbsp;Then, since this does not violate balanced increase principle, the player can have 3, 2, 2 houses, respectively, on these lands by building one more house on the same land.
+                    <br />
+                    <br />
+                    - When a player can build a hotel/house on a land, this does not mean that the player has to build a hotel/house.
+                    <br />
+                    &nbsp;&nbsp;The player can pass the turn without building anything.
+                    <br />
+                    <br />
+                    - When a land is sold, it is sold together with the houses/hotel on it.
+                    <br />
+                    &nbsp;&nbsp;The case where the land and the buildings on it are sold separately is not possible.
+                    <br />
+                    &nbsp;&nbsp;The owner of a land also owns the buildings on that land.
+                    <br />
+                    <br />
+                    - A house and a hotel cannot exist on the same land at the same time.
+                    <br />
+                    &nbsp;&nbsp;When a hotel is built on a land where there are 4 houses, all the houses get destroyed and the hotel takes place of houses.
+                    <br />
+                    <br />
+                    - A hotel cannot be destroyed after it is built. Houses can only be destroyed when a hotel takes place of 4 houses.
+                    <br />
+                    <br />
+                    - The lands are given to its new owner together with the buildings on it when it is sold, or when a player takes all properties of another player that could not pay their debt.
+                    <br />
+                    &nbsp;&nbsp;If the player goes bankruptcy without owing any other player, then the lands that the player owns become unowned together with all buildings on them.
+                    <br />
+                    &nbsp;&nbsp;A land that have become unowned can be bought by a player that comes on the land by paying its current price.
+                    <br />
+                    &nbsp;&nbsp;Price of a land on which there is house/hotel is greater than the price of the empty state of the same land.
+                    <br />
+                    <br />
+                    - Price for building a hotel or a house is derived from the price of the empty state of the land and is constant throughout the game.
+                    <br />
+                    &nbsp;&nbsp;That is, price for building house/hotel does not change when the number of houses on the land changes.
+                    <br />
+                    <br />
+                    - There can exist at most 1 hotel on a land.
+                </p>
+
+
+                <br />
+                <br />
+                
+                <h2 style="color: blue">4 - Chance</h2>
+                <p>
+                    - When a player comes here, a random chance card is picked by the computer, and the player has to apply what is written on the card. The operations written on the chance card are applied automatically by the game.
+                </p>
+                
+                <br />
+                <br />   
+                
+                <h2 style="color: blue">5 - Roll Dice</h2>
+                <p>
+                    - Players roll dice again when they come here.
+                </p>
+                
+                <br />
+                <br /> 
+                
+                <h2 style="color: blue">6 - Jail</h2>
+                <p>
+                    - The player that comes here cannot make move for 2 turns. However, the player continues earning any income that may occur in that interval (public service income, rent payment).
+                </p>
+                
+                <br />
+                <br />
+                
+                <h2 style="color: blue">7 - Start</h2>
+                <p>
+                    - All players stay here at the beginning of the game.
+                    <br />
+                    - This area does not have any other functionality.
+                </p>
+
+
+                <br />
+                <br />
+                
+                <h2 style="color: blue">8 - Lose $50</h2>
+                <p>
+                    - The player that comes here loses $50.
+                    <br />
+                    - The money that is lost is not accumulated in Free Parking area.
+                    <br />
+                    - If the money the player has is less than $50, then the player goes bankruptcy and is out of the game. The money of the player is put in Free Parking area, and properties of the player become unowned.
+                </p>
+                
+                <br />
+                <br />
+                
+                <h2 style="color: blue">9 - Pay $75 Tax</h2>
+                <p>
+                    - The player that comes here pays $75 tax. The tax that is paid is put in Free Parking area.
+                    <br />
+                    - If the money the player has is less than $75, then the player goes bankruptcy and is out of the game. The money of the player is put in Free Parking area, and properties of the player become unowned.
+                </p>
+
+                <br />
+                <br />
+                
+                <h2 style="color: blue">10 - Go to Starting Point</h2>
+
+                <p>
+                    - The player that comes here goes to starting point.
+                    <br />
+                    - This area has no other functionality.
+                </p>
+                
+                <br />
+                <br />     
+                
+                <h2 style="color: blue">11 - Go to Jail</h2>
+                <p>
+                    - The player that comes here get in jail.
+                    <br />
+                    - This area has no other functionality.
+                </p>
+
+                <br />
+                <br />
+                
+                <h2 style="color: red">Trade</h2>
+                <p>
+                    - Players can make trade at any time throughout the game.
+                    <br />
+                    - When the trade button is clicked, the buyer and the seller are selected from the opened window.
+                    <br />
+                    - When "Buy &amp; Sell" button is clicked, the price for the selected property is asked.
+                    <br />
+                    &nbsp;&nbsp;There is a price for each property to be sold. This price is equal to the price of the area if the property being sold is a public service field.
+                    <br />
+                    &nbsp;&nbsp;If the property being sold is a land, then the suggested price changes according to the number of houses/hotels on the land.
+                    <br />
+                    <br />
+                    - There are 3 ways for setting the money transfer between players when selling the property:
+                    <br />
+                    &emsp;1 - Entering a positive number as price: In this case, the buyer loses as much money as entered as price while the seller earns as much money as entered as price.
+                    <br />
+                    &emsp;2 - Entering a negative number as price: In this case, the buyer earns as much money as entered as price while the seller loses as much money as entered as price.
+                    <br />
+                    &emsp;3 - Entering 0 as price: In this case, the property is given from the seller to the buyer for free.
+                </p>
+
+                <br />
+                <br />
+                <h2 style="color: red">Buttons</h2>
+                <p>
+                    - There are 12 buttons on the interface of the game.
+                    <br />
+                    - All fundamental functions of the game are operated by clicking these buttons.
+                    <br />
+                    - Throughout the game, some of the buttons are set as inactive, and some of them are set as active.
+                    <br />
+                    &nbsp;&nbsp;This property also determines what players can do at any time throughout the game.
+                    <br />
+                    - The 12 buttons that are on the interface with their functionalities are as follows:
+                    
+                    
+                    <br />
+                    <br />
+                    
+                    &emsp;<span style="color: blue">- Finish The Game</span>
+                    <br />
+                    &emsp;&emsp;- Ends the game. The game can be ended at any time of the game. In this case, the player that has the greatest amount of property value wins the game. Property value is equal to prices of all properties that the player has plus the money in the account of the player. If there is more than one player that has the greatest amount of property value, then there is no winner.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- Roll Dice</span>
+                    <br />
+                    &emsp;&emsp;- This button is used to roll dice.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- Continue (Next Player's Turn)</span>
+                    <br />
+                    &emsp;&emsp;- This button is used to continue the game with the next turn.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- Build House</span>
+                    <br />
+                    &emsp;&emsp;- This button is used to build a house on the current land.
+                    <br />
+                    &emsp;&emsp;- This button is active only when the current player can build house on the current land.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- Trade</span>
+                    <br />
+                    &emsp;&emsp;- This button is used to open the trade dialog.
+                    <br />
+                    &emsp;&emsp;- Trade is made according to the rules stated above for trade.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- Buy Land/Public Service</span>
+                    <br />
+                    &emsp;&emsp;- This button is used to buy a land/public service.
+                    <br />
+                    &emsp;&emsp;- This button is active only when the current area on which the current player exists is a land or a public service area and the player can buy the area.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- List Players' Properties</span>
+                    <br />
+                    &emsp;&emsp;- This button is used to see an information window where the properties of the players in game are listed.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- Build Hotel</span>
+                    <br />
+                    &emsp;&emsp;- This button is used to build a hotel on the current land.
+                    <br />
+                    &emsp;&emsp;- This button is active only when the current player can build hotel on the current land.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- New Game</span>
+                    <br />
+                    &emsp;&emsp;- This button is used to start a new game.
+                    <br />
+                    &emsp;&emsp;- This button is active only when there is no ongoing game.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- Save Game</span>
+                    <br />
+                    &emsp;&emsp;- This button is used to save the current game.
+                    <br />
+                    &emsp;&emsp;- When clicked on this button, a dialog asking the name of the save appears.
+                    <br />
+                    &emsp;&emsp;- The current game is saved to the saves folder with the specified save name plus .mpsave extension.
+                    <br />
+                    &emsp;&emsp;- After saving a game, the save can be loaded so that the game continues with exactly the same state where the game is saved, even the game is closed.
+                    <br />
+                    &emsp;&emsp;- A game cannot be saved after it ends.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- Load Game</span>
+                    <br />
+                    &emsp;&emsp;- This button is used to load saved games.
+                    <br />
+                    &emsp;&emsp;- Another game can be loaded only when the current game session is finished. 
+                    <br />
+                    &emsp;&emsp;Loading another game is possible by finishing the game while the current game session goes on and then loading any old save file.
+                    
+                    <br />
+                    <br />
+                    &emsp;<span style="color: blue">- Read Game Manual</span>
+                    <br />
+                    &emsp;&emsp;- Opens this window.
+
+
+                </p>
+                
+                <br />
+                <br />
+                <h2 style="color: red">The Game Board</h2>
+                <p>
+                    &emsp;- The game board is the board positioned at the left side of the game window.
+                    <br />
+                    &emsp;- The game board consists of a predrawn image where all the fields are seen.
+                    <br />
+                    &emsp;- When clicked on a field, a window listing some information regarding that field appears.
+                    <br />
+                    &emsp;- Tokens of the players are seen on this board, and the tokens are drawn to the proper positions dynamically throughout the game.
+                </p>
+                
+                <br />
+                <br />
+                <h2 style="color: red">Players Table</h2>
+                <p>
+                    &emsp;- In this table, money amounts, token colors, IDs, and names of the players are listed.
+                </p>
+                
+                <br />
+                <br />
+                <h2 style="color: red">Game Log Box</h2>
+                <p>
+                    &emsp;- It is a text area that is located at the right-bottom side of the window.
+                    <br />
+                    &emsp;- Important messages and game events are delivered to players through this textbox throughout the game.
+                </p>
+                
+            </div>
+        </div>
+    </body>
+</html>
