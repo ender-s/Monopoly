@@ -1,5 +1,5 @@
 # Monopoly
- Written for CMPE211 group project.
+ Written for CMPE211 group project.  
  Number of players can be between 2 and 8 (inclusive).  
  The game ends when there is only one person who has not gone bankruptcy.  
  Game sessions can be saved and loaded.  
